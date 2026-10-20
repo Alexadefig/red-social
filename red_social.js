@@ -16,21 +16,33 @@ console.log("total de likes:", + post.likes.length);
 console.log("Usuarios que dieron like: ", post.likes);
 console.log("Estructura del post", Object.keys) */
 
-const smartphone = {
+/*const smartphone = {
     modelo: "Galaxy S24",
     usuario: "Erica",
-    bandeja_entrada:[],
+    bandeja_entrada: [],
 
 };
 
 smartphone.bandeja_entrada.push("Whatsapp de mamá"),
-smartphone.bandeja_entrada.push("Alerta de Seguridad"),
-smartphone.bandeja_entrada.push("Youtube:Nuevo video"),
+    smartphone.bandeja_entrada.push("Alerta de Seguridad"),
+    smartphone.bandeja_entrada.push("Youtube:Nuevo video"),
 
-smartphone.bandeja_entrada.shift(),
-smartphone.bandeja_entrada.shift(),
-smartphone.bandeja_entrada.shift(),
+    smartphone.bandeja_entrada.shift(),
+    smartphone.bandeja_entrada.shift(),
+    smartphone.bandeja_entrada.shift(),
 
 const total_pendientes = smartphone.bandeja_entrada.length()
 console.log(`Notificaciones pendientes en la bandeja: ${total_pendientes}`);
-console.log("Notificaciones restantes:", smartphone.bandeja_entrada);
+console.log("Notificaciones restantes:", smartphone.bandeja_entrada);*/
+
+
+const person = {
+    name: "Marisela",
+    job: "Developer",
+    city: "Valencia",
+    dateOfbirth: 1959,
+
+};
+const actualYear = 2026;
+
+console.log(`Hola me llamo ${person.name}, soy ${person.job}, vivo en ${person.city}, y tengo ${actualYear - person.dateOfbirth} `);
